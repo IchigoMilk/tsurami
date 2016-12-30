@@ -1,0 +1,15 @@
+/home/vagrant/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20161231-6163-c9mszm.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling byebug.c
+compiling locker.c
+compiling breakpoint.c
+compiling context.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20161231-6163-1i321cb/byebug
